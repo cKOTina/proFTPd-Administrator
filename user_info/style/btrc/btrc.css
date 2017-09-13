@@ -1,0 +1,255 @@
+body {
+  position: relative; /* For scrollyspy */
+  /*font-family: 'Lato', sans-serif !important;*/
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  /*font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; */	
+  background-color: 		#23232e;
+}
+
+A {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+A:hover {
+    color: #ffffff;
+}
+
+A:active {
+}
+
+acronym {
+	cursor:				help;
+}
+acronym:hover {
+	border-bottom:			1px solid;
+}
+
+img {
+	border: 			solid 1px;
+	margin: 			0px;
+	padding: 			0px;
+	
+	border-color:			#9AA0A6;
+}
+
+img.bar-left {
+	border:				none;
+	border-width:			1px 0px 1px 1px;
+}
+
+img.bar-right {
+	border:				none;
+	border-width:			1px 1px 1px 0px;
+}
+
+img.screenshot {
+	border:				inset 1px;
+	padding:			0px 5px 0px 5px;
+}
+
+span.error {
+	color:				#B2448C;
+}
+
+span.primarygroup {
+	text-decoration:		underline;
+}
+
+table {
+	border: 			none;
+	margin: 			0px;
+	padding: 			0px;
+}
+
+td {
+	color:				#23232e;
+	font-size: 			13px;
+/*	border-style: 			solid; */
+/*	border-width: 			0px;*/
+/*	border-color: 			#9AA0A6;*/
+}
+
+td.box-pl {
+	color:				#23232e;
+	border-style:			ridge;
+	border-width: 			0px 0px 1px 0px;
+}
+
+td.box-sel {
+  	font-size:			12pt;
+	font-family: 			sans-serif;
+	margin-top: -2px;
+	margin-bottom: -5px;
+}
+
+td.box-sel a {
+    color: #4670b7;
+    text-decoration: underline;
+}
+
+td.box-sel-head {
+	text-decoration: 		none;
+	font-family: 			verdana, helvetica, sans-serif;
+	font-size: 			12px;
+	font-weight: 			normal;
+
+	color:				#23232e;
+}
+
+td.menu-element-space {
+	width: 				3px;
+}
+
+td.menu-spacer {
+	width: 				15px;
+}
+
+table.outerBounds {
+	max-width: 			950px;
+	width:				950px;
+	
+	border-style: 			none;
+	border-width: 			1px;
+	border-color: 			#FF9900;
+	margin:				0px auto;
+}
+
+table.box {
+	border: 			none;
+	width:				900px;
+
+	border-color:			#9AA0A6;
+  	background-color: 		#f2f6f8;
+}
+
+table.menu_box {
+	width:				900px;
+	height:				47px;
+	margin-top:			5px;
+	z-index:			50;
+}
+
+td.box-main_title {
+	width:				350px;
+}
+
+td.head_title {
+  	font-size:			16pt;
+	font-weight:			bold;
+  	font-family:			verdana, serif;
+	text-align:			right;
+	color:				#627ca8;
+  	background-color: 		#f2f6f8;
+}
+
+td.head-user-menu {
+  	font-size:			8pt;
+	font-weight:			none;
+  	font-family:			verdana, serif;
+	text-align:			right;
+}
+
+td.head-user-menu a {
+	color:				#4670b7;
+	text-decoration:		underline;
+}
+
+td.box-main_logo {
+	margin:				5px 0px 3px 50px;
+	background:			url(/proftpd_admin/style/btrc/logo01.png) no-repeat;
+	display:			block;
+	height:				70px;
+	width:				152px;
+}
+
+
+
+td.box-headline {
+  	font-size:			14pt;
+  	font-family:			verdana, serif;
+	text-align:			center;
+	color:				#627ca8;
+
+}
+
+td.box-subheadline {
+	border-width: 			1px 0px 1px 0px;
+  	font-size:			12pt;
+  	font-family:			verdana, sans-serif;
+	text-align:			center;
+
+	color:				#23232e;
+  	background-color: 		#f2f6f8;
+}
+
+td.box-subheadspace {
+	line-height:			25px;
+}
+
+td.leaflet {
+	border: 			none;
+  	font-size:			12pt;
+  	font-family:			verdana, sans-serif;
+	width:				100px;
+
+  	background-color: 		#627ca8;
+}
+
+tr.overRow {
+	background-color: 		#f2f6f8;
+}
+
+input {
+	border:				solid 1px;
+
+    	text-decoration: 		none;
+	font-family: 			verdana, helvetica, sans-serif;
+    	font-size: 			12px;
+    	font-weight: 			normal;
+
+	border-color:			#9AA0A6;
+	background-color: 		#f2f6f8;
+	color:				#23232e;
+	
+	text-indent:			2px;
+}
+
+input.radio {
+	border:				none;
+}
+
+select {
+	border:				solid 1px;
+
+    	text-decoration: 		none;
+	font-family: 			verdana, helvetica, sans-serif;
+    	font-size: 			12px;
+    	font-weight: 			normal;
+    	
+	border-color:			#9AA0A6;
+	background-color: 		#f2f6f8;
+	color:				#23232e;
+}
+
+textarea {
+	border:				solid 1px;
+
+    	text-decoration: 		none;
+	font-family: 			verdana, helvetica, sans-serif;
+    	font-size: 			12px;
+    	font-weight: 			normal;
+
+	border-color:			#9AA0A6;
+	background-color: 		#f2f6f8;
+	color:				#909FB1;
+}
+
+blockquote.doc-commands {
+    color: 				#B2448C;
+}
+
+blockquote.doc-commands-quote {
+    color: 				#C6829F;
+}
