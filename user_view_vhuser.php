@@ -16,9 +16,9 @@ $vhuser_data = $db->get_vhuser_by_id($res_data['uid']);
 			if (count($vhuser_data) != 0) foreach($vhuser_data as $vhosts) {
 				?>
 				<tr onmouseover="if (typeof(this.style) != 'undefined') this.className = 'overRow';" onmouseout="if (typeof(this.style) != 'undefined') this.className = ''">
-					<td width="*" class="box-sel"><?php echo $vhosts['servername']; ?></td>
-					<td width="*" class="box-sel" align="left"><?php echo $vhosts['docroot']; ?></td>
-					<td width="7%" class="box-sel" align="center"><a href="user_view.php?viewID=<?=$res_data['uid']?>&amp;section=vhuser&amp;name=<?=$vhosts['servername']?>&amp;del=1"><?php echo $language['general']['delete']; ?></a></td>
+					<td class="box-sel"><?php echo $vhosts['servername']; ?></td>
+					<td class="box-sel" align="left"><?php echo $vhosts['docroot']; ?></td>
+					<td class="box-sel" align="center"><a href="user_view.php?viewID=<?=$res_data['uid']?>&amp;section=vhuser&amp;name=<?=$vhosts['servername']?>&amp;del=1"><?php echo $language['general']['delete']; ?></a></td>
 				</tr>
 				<?php
 			}
