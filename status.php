@@ -138,11 +138,15 @@ doHeader();
 
 doFooter();
 
+
 function print_info($res_data) {
+ 
 	foreach ($res_data as $key => $value) {
+        // TODO: А хрен его знает что с этими стилями
 		echo '<tr onmouseover="if (typeof(this.style) != \'undefined\') this.className = \'overRow\';" onmouseout="if (typeof(this.style) != \'undefined\') this.className = \'\'">';
-		echo '	<td width="140"  class="box-sel" align="left" valign="top">' . $key . '</td>';
-		echo '	<td width="*" colspan="2" class="box-sel" align="left">' . $value . '</td>';
+		echo '	<td class="box-sel" align="left" valign="top">' . $key . '</td>';
+		echo '	<td colspan="2" class="box-sel" align="left">' . $value . '</td>';
+		
 		echo '</tr>';
 	}
 }
