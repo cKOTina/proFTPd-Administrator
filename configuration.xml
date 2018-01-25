@@ -6,8 +6,8 @@
 		<type>MySQL</type>
 		<sub_type>standard</sub_type>
 		<hostname>localhost</hostname>
-		<username>proftpd</username>
-		<password>290378</password>
+		<username>root</username>
+		<password></password>
 		<database>proftpd_admin</database>
 	</database>
 	<proftpd>
