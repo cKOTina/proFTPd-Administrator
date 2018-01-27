@@ -24,7 +24,7 @@ require_once('class_process.php');
 			foreach($list as $item) {
 				array_push($existing_pids, $item['PID']);
 
-				$process =& new Process();
+				$process = new Process();
 				$process->uid 	= $item['UID'];
 				$process->pid 	= $item['PID'];
 				$process->ppid	= $item['PPID'];
